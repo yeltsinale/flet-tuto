@@ -12,5 +12,5 @@ def main(page: ft.Page):
         page.update()
         time.sleep(1)
 
-ft.app(target=main)
 
+ft.app(target=main)

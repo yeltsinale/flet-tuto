@@ -1,5 +1,6 @@
 import flet as ft
 
+
 def main(page: ft.Page):
     page.add(
         ft.Row(controls=[
@@ -7,5 +8,6 @@ def main(page: ft.Page):
             ft.ElevatedButton(text="Say my name!")
         ])
     )
+
 
 ft.app(target=main)
